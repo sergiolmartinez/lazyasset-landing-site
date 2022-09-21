@@ -36,7 +36,8 @@
     /* bottom: 15%;
     right: 10%; */
     color: white;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    text-align: center;
     padding: 15px;
     background: transparent;
 }
@@ -51,5 +52,27 @@
     50% { opacity: 0;}
     100% { content:"Coming soon";}
     
+}
+
+.logo {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    background-color: transparent;
+    margin-bottom: 300px;
+}
+
+.logo_image {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero_title {
+      font-size: 3rem;
+    }
 }
 
